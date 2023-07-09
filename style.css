@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("images/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.bg-primary {
+    background-color: red;
+    color: white;
+}
+.service-container{
+    height: 100vh;
+    background-image: url("images/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.service-description{
+    width: 50%;
+}
+.first-two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.author-img{
+    width: 70px;
+    
+}
+.author-cont{
+
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appoint-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+
+}
+.blog-container{
+    width: 80%;
+
+
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+.card{
+    width: 220px;
+    height: 350px;
+    /* background-color: blue; */
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+}
